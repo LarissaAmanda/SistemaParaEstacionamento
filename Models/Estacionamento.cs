@@ -41,7 +41,7 @@ namespace SistemaEstacionamento1.Models
             
         }
         public void CriarVagas()
-        {   //Cria as vagas de acordo com a quantidade especificada no inicio do programa. 
+        {   //Cria as vagas de acordo com a quantidade especificada na propriedade do estacionamento. 
             for( int i = 1; i <= VagaComum; i++ )
             {
                  vagasEstacionamento.Add(new Vaga($"A{i}", null, 1)); // Vaga Comum
@@ -198,7 +198,7 @@ namespace SistemaEstacionamento1.Models
             foreach (Vaga vaga in vagasEstacionamento)
             {   //Verifica se há carro estacionado na vaga
                 if (vaga.VeiculoEstacionado != null)
-                {   //Calcula quanto tempo p carro está na vaga e apresenta a placa, vaga e tempo que o carro está na ocupando a vaga
+                {   //Calcula quanto tempo o carro está na vaga e apresenta a placa, vaga e tempo que o carro está ocupando a vaga
                     TimeSpan tempoEstacionado = horaAtual - vaga.HoraEntrada;
                     Console.WriteLine($"{Contador +1} - Veículo do tipo: {vaga.VeiculoEstacionado.TipoDoVeiculo}, de placa: {vaga.VeiculoEstacionado.Placa}, está na vaga: {vaga.NomeVaga} do tipo {vaga.TipoDaVaga}. Estacionado há {tempoEstacionado.Hours} horas");
                 }
@@ -246,7 +246,7 @@ namespace SistemaEstacionamento1.Models
             decimal tempoDecimal = (decimal)tempoPermanencia.Hours;
             //Calcula o valor total a ser pago
             decimal valorTotal = tempoDecimal * PrecoPorHora + PrecoInicial;
-            //Arendora o valor, apresenta duas casas decimais desse valor
+            //Arredonda o valor e apresenta duas casas decimais.
             return Math.Round(valorTotal, 2);
         }
        
