@@ -1,0 +1,14 @@
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\bin\Debug\net8.0\SistemaEstacionamento1.exe
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\bin\Debug\net8.0\SistemaEstacionamento1.deps.json
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\bin\Debug\net8.0\SistemaEstacionamento1.runtimeconfig.json
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\bin\Debug\net8.0\SistemaEstacionamento1.dll
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\bin\Debug\net8.0\SistemaEstacionamento1.pdb
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\obj\Debug\net8.0\SistemaEstacionamento1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\obj\Debug\net8.0\SistemaEstacionamento1.AssemblyInfoInputs.cache
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\obj\Debug\net8.0\SistemaEstacionamento1.AssemblyInfo.cs
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\obj\Debug\net8.0\SistemaEstacionamento1.csproj.CoreCompileInputs.cache
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\obj\Debug\net8.0\SistemaEstacionamento1.dll
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\obj\Debug\net8.0\refint\SistemaEstacionamento1.dll
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\obj\Debug\net8.0\SistemaEstacionamento1.pdb
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\obj\Debug\net8.0\SistemaEstacionamento1.genruntimeconfig.cache
+D:\Projetos Larissa DIO\Portifolio\SistemaEstacionamento1\obj\Debug\net8.0\ref\SistemaEstacionamento1.dll
