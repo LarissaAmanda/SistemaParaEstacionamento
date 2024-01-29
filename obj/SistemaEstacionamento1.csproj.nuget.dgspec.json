@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos Larissa DIO\\Portifolio\\SistemaEstacionamento1\\SistemaEstacionamento1.csproj": {}
+    "D:\\Projetos Larissa DIO\\Portifolio\\Nova pasta (2)\\SistemaParaEstacionamento\\SistemaEstacionamento1.csproj": {}
   },
   "projects": {
-    "D:\\Projetos Larissa DIO\\Portifolio\\SistemaEstacionamento1\\SistemaEstacionamento1.csproj": {
+    "D:\\Projetos Larissa DIO\\Portifolio\\Nova pasta (2)\\SistemaParaEstacionamento\\SistemaEstacionamento1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos Larissa DIO\\Portifolio\\SistemaEstacionamento1\\SistemaEstacionamento1.csproj",
+        "projectUniqueName": "D:\\Projetos Larissa DIO\\Portifolio\\Nova pasta (2)\\SistemaParaEstacionamento\\SistemaEstacionamento1.csproj",
         "projectName": "SistemaEstacionamento1",
-        "projectPath": "D:\\Projetos Larissa DIO\\Portifolio\\SistemaEstacionamento1\\SistemaEstacionamento1.csproj",
+        "projectPath": "D:\\Projetos Larissa DIO\\Portifolio\\Nova pasta (2)\\SistemaParaEstacionamento\\SistemaEstacionamento1.csproj",
         "packagesPath": "C:\\Users\\iidv2\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos Larissa DIO\\Portifolio\\SistemaEstacionamento1\\obj\\",
+        "outputPath": "D:\\Projetos Larissa DIO\\Portifolio\\Nova pasta (2)\\SistemaParaEstacionamento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iidv2\\AppData\\Roaming\\NuGet\\NuGet.Config",

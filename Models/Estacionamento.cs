@@ -231,7 +231,7 @@ namespace SistemaEstacionamento1.Models
                 vaga.Disponivel = true;
                 decimal valorASerPago = CalcularPreco(tempoPermanencia);
 
-                Console.WriteLine($"O veículo foi removido. Tempo de permanência: {tempoPermanencia.Hours} segundos. O valor a ser pago é de R${valorASerPago}");
+                Console.WriteLine($"O veículo foi removido. Tempo de permanência: {tempoPermanencia.Hours} horas. O valor a ser pago é de R${valorASerPago}");
             }
             else
             {
@@ -241,7 +241,7 @@ namespace SistemaEstacionamento1.Models
             }
             
         }
-        public decimal CalcularPreco(TimeSpan tempoPermanencia)
+        private decimal CalcularPreco(TimeSpan tempoPermanencia)
         {   //Converte o tipo timespan para decimal 
             decimal tempoDecimal = (decimal)tempoPermanencia.Hours;
             //Calcula o valor total a ser pago
@@ -251,7 +251,7 @@ namespace SistemaEstacionamento1.Models
         }
        
         
-        public bool ValidarPlaca(string placa)
+        private bool ValidarPlaca(string placa)
         {
             if (string.IsNullOrWhiteSpace(placa)) { return false; }
           
